@@ -316,7 +316,11 @@ a{
 .infoCoins1 img{
   position: absolute;
 }
-
+.butonmobile{
+  border-radius: 1em; 
+  width: 85%;
+  margin-left: 10%;
+}
 
 
 /*SCREEN XS*/
