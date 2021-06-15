@@ -144,8 +144,6 @@ showNextSeccao();
                                                     <!----2ndpage-->
 
     <div class="main2" id="about" style="padding-top:8%" >
-      <!-- <h1 style="text-align: center; padding-left: 12.5vw; padding-right: 12.5vw;">WEBET AIMS TO DEVELOP THE FIRST TRULY FEELESS AND DECENTRALIZED BETTING/PREDICTION MARKETPLACE, BLOCKCHAIN AND SMART CONTRACTS ARE THE FUEL THAT WILL MAKE ALL OF THIS POSSIBLE. IT’S TIME TO RETURN THE MULTI-BILLION DOLLAR FEES TO THE HANDS OF USERS.</h1>
-        <h4 class="text-center" style="padding-left: 20vw; padding-right:20vw;"></h5>  -->
           <div class="padding">
           <div class="container-fluid">
           <video width="70%" controls style="margin-left: 15vw;">  
@@ -179,18 +177,57 @@ showNextSeccao();
 
     </div>
 
-
-                                                      <!----WWB-->
+<script>
+  function showDiv(){
+  var x = document.getElementById("divButon1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+   
+   function showDiv2() {
+      var x= document.getElementById('divButon2');
+    if (x.style.display === "none") {
+        x.style.display = "block";
+  } else {
+        x.style.display = "none";
+  }
+   }
+  </script> 
+                                                     <!----WWB-->
 <div class="WWB d-block d-sm-none" style="margin-top: 10%;" id="whywebetMobile">
-  <input type="image" src="imagens/wwbButon1.png" class="butonmobile" style="margin-top: 10%; margin-bottom: 10%;">
-  <input type="image" src="imagens/wwbButton2.png" class="butonmobile" style="margin-bottom: 10%;">
+  <input type="image" src="imagens/wwbButon1.png" class="butonmobile"  value="Show Div" onclick="showDiv()" />>
+  <div id="divButon1"  style="display:none;" class="col">
+    <img src="imagens/WWBimg.png" style="width: 70%;">
+    <a>NO FEES</a>
+    <a>NO CUSTODY OF THE USERS MONEY</a>
+    <a>BET ON ANYTHING!</a>
+    <a>ALL THE BETS ARE REGISTERED ON THE BLOCKCHAIN</a>
+    <a>GLOBAL MARKET</a>
+    <a>SIMPLICITY, NO ACCOUNT NEEDED TO PARTICIPATE</a>
+    <a>NO LIMIT/ INSTANT CASHOUT</a>
+  </div>
+  <input type="image" src="imagens/wwbButton2.png" class="butonmobile" style="margin-top:0 ;"value="Show Div" onclick="showDiv2()" />>
+  <div id="divButon2"  style="display:none;" class="col">
+    <a>COMPETITION</a>
+    <a>5-10%</a>
+    <a>FULL CUSTODY OF THE USERS MONEY</a>
+    <a>RESTRICTED TO SPORTS AND POLITICS</a>
+    <a>ALL THE BEST ARE HIDDEN FROM THE USER'S VIEW</a>
+    <a>REGIONAL MARKET</a>
+    <a>FULL REGISTRATION NEEDED TO BET</a>
+    <a>LIMITED BETTING, CASHOUT REQUIRES HOUSE APPROVAL</a>
+  
+  </div>
 
-</div>                                                    
+</div>      
+<div class="containerCoins">
+          <img src="imagens/PNG/wwb coins.png">
+          </div>                                              
 <div class="WWB" style="margin-top: 10%;" id="whywebet">
       <div class="containertable">
-        <div class="containerCoins">
-          <img src="imagens/PNG/wwb coins.png">
-          </div>
       <table>    
         <tr>
           <th id="leftable">
@@ -234,7 +271,7 @@ showNextSeccao();
  
   
                                                       <!---info-->
-<div class="main1" style="margin-top: 10%;" id="info">
+<div class="main1" id="info">
   <div class="infoCoins2">
     <img src="imagens/PNG/infocoins2.png">
   </div>
@@ -330,7 +367,7 @@ showNextSeccao();
 
                                                         <!----team-->
 
-<div class="main1" id="team" style="padding-top: 6%;">
+<div class="main1" id="team" >
   <img src="imagens/svg/team.png" class="rounded mx-auto d-block" width="15%" id="logoimg">
   <div class="padding">
     <div class="container">

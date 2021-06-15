@@ -187,6 +187,7 @@ a{
 }
  .main1{
   width: 100%;
+  margin-top: 8%;
   height: 100%;
  }
  .main2{
@@ -318,10 +319,18 @@ a{
 }
 .butonmobile{
   border-radius: 1em; 
-  width: 85%;
-  margin-left: 10%;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#divButon1 a{
+  color: white;
 }
 
+#divButon2 a{
+  color: white;
+}
 
 /*SCREEN XS*/
 @media (max-width: 575.98px) {
@@ -353,17 +362,17 @@ a{
   #special{margin-right:0;font-size: 20px; padding-left: 27%; line-height: 0.5};
   .main1 p{text-align: center;}
   #whywebet{display: none;}
-  #colInfo{margin-top: 10%;}
+  #colInfo{margin-top: 7%;}
   #pequeno1{height: 11vh;}
 
-  .containerCoins{display: none;}
-  .containerCoins{display: none;}
-  .infoCoins1{display: none;}
-  .infoCoins2{ display: none; }
+  .containerCoins img{top: 330%; left: 0%; width: 30%;}
+  .infoCoins1 img{display: none;}
+  .infoCoins2 img{display: none; }
 
-  #whywebetMobile{display: block;}
-  
-
+  #info{margin-top: 0;}
+  .main1 .row{margin: 0;}
+  .main1{margin-top: 0%;}
+  #special{font-size: 24px; line-height: 0.5;}
    
 }
 
