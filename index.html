@@ -83,15 +83,19 @@
             <h3>Fast registration, deposits, and withdrawals </h3>
             <h3>meet a unique, simple betting system.</h3>  
           </div>
-          <div class="fader" id="a3" style="display: none;">
+          <div class="fader" id="a3" style="display: none; margin-top: 0.3%;">
             <h1>BET ACROSS MULTIPLE</h1>
             <h1>MARKETS</h1>
+            <br>
             <h3>Webet support bets between all markets, for example, </h3> 
             <h3>Gold vs Bitcoin or Tesla vs Ethereum.</h3>
+            <br>
+           
           </div>
-          <div class="fader" id="a4" style="display: none;">
+          <div class="fader" id="a4" style="display: none;margin-top: 0.45%;">
             <h1>FREE MARKETPLACE, </h1>
             <h1>NO FEES</h1>
+            <br>
             <h3>A small percentage of any bet won(0.1~2%) is </h3>
             <h3> paid in WEBT token that can provide unique advantages </h3>  
             <h3>for the users or traded for other currency.</h3>
@@ -130,9 +134,9 @@ var seccaoIndex = -1;
 function showNextSeccao() {
     ++seccaoIndex;
     seccao.eq(seccaoIndex % seccao.length)
-        .fadeIn(2000)
-        .delay(500)
-        .fadeOut(2000, showNextSeccao);
+        .fadeIn(1950)
+        .delay(520)
+        .fadeOut(1850, showNextSeccao);
 }
 
 showNextSeccao();
@@ -180,46 +184,76 @@ showNextSeccao();
 <script>
   function showDiv(){
   var x = document.getElementById("divButon1");
+  var y = document.getElementById("botaoImg1");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
 }
    
    function showDiv2() {
       var x= document.getElementById('divButon2');
+      var y = document.getElementById("botaoImg2");
     if (x.style.display === "none") {
         x.style.display = "block";
   } else {
         x.style.display = "none";
   }
+  if (y.style.display === "none") {
+        y.style.display = "block";
+  } else {
+        y.style.display = "none";
+  }
    }
   </script> 
                                                      <!----WWB-->
 <div class="WWB d-block d-sm-none" style="margin-top: 10%;" id="whywebetMobile">
-  <input type="image" src="imagens/wwbButon1.png" class="butonmobile"  value="Show Div" onclick="showDiv()" />>
-  <div id="divButon1"  style="display:none;" class="col">
-    <img src="imagens/WWBimg.png" style="width: 70%;">
-    <a>NO FEES</a>
-    <a>NO CUSTODY OF THE USERS MONEY</a>
-    <a>BET ON ANYTHING!</a>
-    <a>ALL THE BETS ARE REGISTERED ON THE BLOCKCHAIN</a>
-    <a>GLOBAL MARKET</a>
-    <a>SIMPLICITY, NO ACCOUNT NEEDED TO PARTICIPATE</a>
-    <a>NO LIMIT/ INSTANT CASHOUT</a>
+  <input type="image" id="botaoImg1" src="imagens/wwbButon1.png" class="butonmobile"  value="Show Div" onclick="showDiv()" />>
+  <div id="divButon1"  style="display:none;"  onclick="showDiv()">
+    <ul id="wwb1">
+      <li><img src="imagens/WWBimg.png" style="width: 70%;"></li>
+      <br>
+      <li>NO FEES</li>
+      <br>
+      <li>NO CUSTODY OF THE USERS MONEY</li>
+      <br>
+      <li>BET ON ANYTHING!</li>
+      <br>
+      <li>ALL THE BETS ARE REGISTERED ON THE BLOCKCHAIN</li>
+      <br>
+      <li>GLOBAL MARKET</li>
+      <br>
+      <li>SIMPLICITY, NO ACCOUNT NEEDED TO PARTICIPATE</li>
+      <br>
+      <li>NO LIMIT/ INSTANT CASHOUT</li>
+    </ul>
   </div>
-  <input type="image" src="imagens/wwbButton2.png" class="butonmobile" style="margin-top:0 ;"value="Show Div" onclick="showDiv2()" />>
-  <div id="divButon2"  style="display:none;" class="col">
-    <a>COMPETITION</a>
-    <a>5-10%</a>
-    <a>FULL CUSTODY OF THE USERS MONEY</a>
-    <a>RESTRICTED TO SPORTS AND POLITICS</a>
-    <a>ALL THE BEST ARE HIDDEN FROM THE USER'S VIEW</a>
-    <a>REGIONAL MARKET</a>
-    <a>FULL REGISTRATION NEEDED TO BET</a>
-    <a>LIMITED BETTING, CASHOUT REQUIRES HOUSE APPROVAL</a>
-  
+ 
+  <input type="image" id="botaoImg2" src="imagens/wwbButton2.png" class="butonmobile" style="margin-top:0 ;"value="Show Div" onclick="showDiv2()" />>
+  <div id="divButon2"  style="display:none;" onclick="showDiv2()" >
+    <ul id="wwb1">
+    <li>COMPETITION</li>
+    <br>
+    <li>5-10%</li>
+    <br>
+    <li>FULL CUSTODY OF THE USERS MONEY</li>
+    <br>
+    <li>RESTRICTED TO SPORTS AND POLITICS</li>
+    <br>
+    <li>ALL THE BEST ARE HIDDEN FROM THE USER'S VIEW</li>
+    <br>
+    <li>REGIONAL MARKET</li>
+    <br>
+    <li>FULL REGISTRATION NEEDED TO BET</li>
+    <br>
+    <li>LIMITED BETTING, CASHOUT REQUIRES HOUSE APPROVAL</li>
+  </ul>
   </div>
 
 </div>      
@@ -352,17 +386,9 @@ showNextSeccao();
 
                                                       <!----tokenPart-->
 
-<div class="WWB" id="token" style="margin-top: 2%;">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <img src="imagens/svg/tokenpart.svg">
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <p></p>
-      </div>      
+<div class="WWB" id="token" style="margin-top: 5%;">
+        <img src="imagens/svg/Ativo 1_1.svg" class="img-fluid rounded mx-auto d-block " style="width: 50%;margin-top: 5%;">
     </div> 
-  </div>
 </div>
 
                                                         <!----team-->

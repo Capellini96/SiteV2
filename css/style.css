@@ -12,7 +12,9 @@ html, body{
   padding: 0;
 
 }
-
+#token{
+  padding: 5% 5%;
+}
 .imgnav{
   position: absolute;
   height: 106vh;
@@ -216,10 +218,13 @@ a{
  }
 
 .WWB{
-  padding: 7% 7%;
+ 
   width: 100%;
   height: 100%;
   background-color: rgb(24,19,45);
+}
+#whywebet{
+  padding:7% 7%;
 }
 
 
@@ -331,6 +336,23 @@ a{
 #divButon2 a{
   color: white;
 }
+li{
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  font-weight: 600;
+  color: black;
+}
+ #wwb1{
+  border-radius: 1.5em;
+  list-style-type: none;
+  background-color: thistle;
+  padding:5% 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:5%;
+  margin-bottom:5%;
+}
 
 /*SCREEN XS*/
 @media (max-width: 575.98px) {
@@ -373,7 +395,12 @@ a{
   .main1 .row{margin: 0;}
   .main1{margin-top: 0%;}
   #special{font-size: 24px; line-height: 0.5;}
-   
+ 
+  #a1{margin-bottom: 14.4%;}
+  #a2{margin-bottom: 14.4%;}
+  
+
+  
 }
 
 /* SCREEN SM */
