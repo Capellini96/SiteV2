@@ -38,6 +38,32 @@ th{
   font-weight:900;
   color: white;
 }
+.dropdown-item:hover{
+  color: rgb(103,188,155);
+  background-color: white;
+  cursor: pointer;
+}
+.fixed-top.scrolled .dropdown-item:hover{
+  color: rgb(103,188,155);
+  background-color: rgb(24,19,45);
+  cursor: pointer;
+}
+.fixed-top.scrolled .dropdown-item{
+  color:white;
+  cursor: pointer;
+}
+.fixed-top .dropdown-menu{
+  border-radius: 1.2em;
+  border: 2.5px solid rgb(103,188,155);
+}
+.fixed-top.scrolled .dropdown-menu{
+  color: rgb(103,188,155);
+  background-color: rgb(24,19,45);
+  cursor: pointer;
+  border-radius: 1.2em;
+  border: 2.5px solid rgb(103,188,155);
+}
+
 td{
   padding-top: 5vh;
   font-family: 'Montserrat', sans-serif;
