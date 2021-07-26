@@ -33,7 +33,7 @@ table{
   margin:auto;
 }
 th{
-  font-size: 3rem;
+  font-size: 2.5vw;
   font-family: 'Montserrat', sans-serif;
   font-weight:900;
   color: white;
@@ -65,12 +65,11 @@ th{
 }
 
 td{
-  padding-top: 5vh;
+  padding-top: 3.5%;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
   color: white;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.1vw;
 }
 .container1{
   width: 100%;
