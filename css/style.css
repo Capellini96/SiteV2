@@ -40,12 +40,15 @@ th{
 }
 td{
   padding-top: 5vh;
-  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: white;
   font-weight: 600;
   font-size: 1.5rem;
+}
+.container1{
+  width: 100%;
+  height: 35vh;
 }
 .containertable{
   padding: 4% 7%;
