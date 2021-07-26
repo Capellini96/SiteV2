@@ -65,8 +65,8 @@ td{
   padding-left: 30px;
 }
 .fixed-top.scrolled .navbar-brand img{
-  height: 50px !important;
-  width: 70px !important;
+  height: 80%;
+  width: 10vh;
   line-height: 0 !important;
   margin-right: 4vw;
 }
@@ -94,6 +94,8 @@ td{
  .fixed-top{
   background-color:white;
 } 
+
+
 
 .fixed-top.scrolled a.nav-link {
   color :white;
@@ -165,12 +167,11 @@ a{
   color: black;
 }
 .nav-link{
-  margin-top: 2.5vh;
+  margin-top: 2vh;
 }
 
 .firstnav .nav-link{
   font-size: 1.5vw;
-  color:  black;
 }
 .navbar-fixed-top.scrolled {
   background-color:black !important;
@@ -424,6 +425,8 @@ li{
   .col-xano{width: 42%;}
   #secondrow{margin-top: 0%;}
   #special{font-size: 30px;}
+  .navbar{padding: 0;}
+  .nav-link{padding: 0;}
 
   .containerCoins img{top: 305%; left: 0%; width: 20%;}
   .infoCoins1 img{top: 389%; left: 10%; width: 18%;}
