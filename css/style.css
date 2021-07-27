@@ -150,6 +150,7 @@ td{
   font-size: 1.1rem;
   font-family: 'Montserrat', serif;
   font-weight: 400;
+  padding: 10px 20px;
   background: linear-gradient(to right,rgb(103,188,155) , rgb(68, 125, 163));
   border-radius: 1.4rem;
 }
@@ -376,7 +377,7 @@ li{
  #wwb1{
   border-radius: 1.5em;
   list-style-type: none;
-  background-color: thistle;
+  background-color: rgb(235, 217, 235);
   padding:5% 5%;
   margin-left: 10%;
   margin-right: 10%;
@@ -392,7 +393,10 @@ li{
   h4 {font-size: 4vw;}
   a {font-size: 3vw;}
   p {font-size: 3vw;}
-  .firstnav .nav-link{font-size: 2vw;}
+  .fixed-top.scrolled a.nav-link{font-size: 14px;}
+  .fixed-top .nav-link{font-size: 14px;}
+  .fixed-top .navbar-brand{width: 40%; height:50%;}
+
   .main2 h1{line-height: 6vw;}
   .imgicons2{width:13%}
   .logos{width: 30px; height: 30px;}
@@ -408,6 +412,7 @@ li{
   .gif {display: none;}
   .imghidden{display:block;position: relative ; left: 30%; }
   .imgicons1{width: 30px;height: 30px;}
+   .fixed-top li{padding: 0; margin:0;}
    
   #rowInfo{margin-left:0;}
   .containerInfo{margin-left: 23%; text-align: center; width: 60%; padding: 4%; line-height: 1.2; height: 16vh;}
@@ -473,7 +478,7 @@ li{
   .teamimg {width: 180px; height: 160px; }
   .linhaimg{width: 0%;}
   p {font-size: 1.5vw;}
-  .firstnav .nav-link{font-size: 2vw;}
+  .fixed-top .nav-link{font-size: 2vw;}
   .imgicons2{width: 15%;}
   .imgicons1{width: 15%;}
   .col1-small{width: 40%; float: right;}
@@ -540,6 +545,9 @@ li{
   .containerCoins img{top: 347%; left: 6.5%;}
   .infoCoins1 img{top: 460%; left: 15.5%; width: 14%;}
   .infoCoins2 img{top: 525%; left: 14%; width: 18%;}
+
+
+
 }
 
 
