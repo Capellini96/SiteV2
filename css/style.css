@@ -387,7 +387,7 @@ li{
   width: 50%;
   margin-top: 5%;
 }
-
+#buytokenimg{width: 80%;}
 /*SCREEN XS*/
 @media (max-width: 575.98px) {
   h1 {font-size: 4vw;}
@@ -438,7 +438,7 @@ li{
   #a2{margin-bottom: 14.4%;}
   
   #tokenGrafico{width: 100%; margin-bottom: 10%;}
-  #buytokenimg{width: 100%; height: 60vh;}
+  #buytokenimg{width: 100%; height: 40vh;}
 }
 
 /* SCREEN SM */
