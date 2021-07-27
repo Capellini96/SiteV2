@@ -150,7 +150,6 @@ td{
   font-size: 1.1rem;
   font-family: 'Montserrat', serif;
   font-weight: 400;
-  padding: 10px 20px;
   background: linear-gradient(to right,rgb(103,188,155) , rgb(68, 125, 163));
   border-radius: 1.4rem;
 }
@@ -545,7 +544,7 @@ li{
   .containerCoins img{top: 347%; left: 6.5%;}
   .infoCoins1 img{top: 460%; left: 15.5%; width: 14%;}
   .infoCoins2 img{top: 525%; left: 14%; width: 18%;}
-
+  #btnNav{width: 100%;}
 
 
 }
