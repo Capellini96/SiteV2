@@ -295,7 +295,7 @@ a{
   margin-left: 0%;
   border-radius: 1em;
   padding: 5% 10%;
-  height: 25vh;
+  height: 60%;
   line-height: 1.5;
   vertical-align: center;
 }
@@ -354,8 +354,8 @@ a{
 }
 .butonmobile{
   border-radius: 1em; 
-  width: 95%;
-  margin-left: 5%;
+  width: 70%;
+  margin-left: 15%;
   margin-top: 10%;
   margin-bottom: 10%;
 }
@@ -376,12 +376,16 @@ li{
  #wwb1{
   border-radius: 1.5em;
   list-style-type: none;
-  background-color: rgb(235, 217, 235);
+  background-color: rgb(162, 161, 171);
   padding:5% 5%;
   margin-left: 10%;
   margin-right: 10%;
   margin-top:5%;
   margin-bottom:5%;
+}
+#tokenGrafico{
+  width: 50%;
+  margin-top: 5%;
 }
 
 /*SCREEN XS*/
@@ -414,7 +418,7 @@ li{
    .fixed-top li{padding: 0; margin:0;}
    
   #rowInfo{margin-left:0;}
-  .containerInfo{margin-left: 23%; text-align: center; width: 60%; padding: 4%; line-height: 1.2; height: 16vh;}
+  .containerInfo{margin-left: 23%; text-align: center; width: 60%; padding: 4%; line-height: 1.2;}
   #special{margin-right:0;font-size: 20px; padding-left: 27%; line-height: 0.5};
   .main1 p{text-align: center;}
   #whywebet{display: none;}
@@ -433,8 +437,8 @@ li{
   #a1{margin-bottom: 14.4%;}
   #a2{margin-bottom: 14.4%;}
   
-
-  
+  #tokenGrafico{width: 100%; margin-bottom: 10%;}
+  #buytokenimg{width: 100%; height: 60vh;}
 }
 
 /* SCREEN SM */
@@ -452,7 +456,7 @@ li{
   .imgicons2{width: 20%;}
   .imgicons1{width: 10%;}
   #rowInfo{margin-left:0;}
-  .containerInfo{margin-left: 0; height: 15vh;}
+  .containerInfo{margin-left: 0; }
   #special{margin:0};
   .doubleline{top:0}
   .col-xano{width: 42%;}
@@ -464,6 +468,7 @@ li{
   .containerCoins img{top: 305%; left: 0%; width: 20%;}
   .infoCoins1 img{top: 389%; left: 10%; width: 18%;}
   .infoCoins2 img{top: 426%; left: 10%; width: 22%;}
+  #buytokenimg{width: 100%;}
 }
 
 /* SCREEN MD */
@@ -486,7 +491,7 @@ li{
   .doubleline{top:0}
   .col-xano{width: 42%;}
   #special{font-size: 24px;}
-  #secondrow{margin-top: 10%;}
+  #secondrow{margin-top: 5%;}
 
   .containerCoins img{top: 314%; left: 0%; width: 20%;}
   .infoCoins1 img{top: 405%; left: 14%; width: 15%;}
@@ -510,7 +515,7 @@ li{
   .col1-small{width: 40%; float: right;}
   .colxano{width: 28%;}
   #special{font-size: 32px;}
-  #secondrow{margin-top: 10%;}
+  #secondrow{margin-top: 5%;}
 
   .containerCoins img{top: 310%; left: 0%; width: 18%;}
   .infoCoins1 img{top: 410%; left: 14%; width: 15%;}
@@ -531,7 +536,7 @@ li{
   .imgicons1{width: 15%}
   .col1-big{width: 60%;}
   .colxano{width: 28%;}
-  #secondrow{margin-top: 10%;}
+  #secondrow{margin-top: 5%;}
 
   #multi{margin-bottom: 4%; width: 22%;}
   #h2h{margin-bottom: 1%;}
