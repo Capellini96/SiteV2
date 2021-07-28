@@ -350,7 +350,7 @@ a{
 }
 .containercoins2 img{
   position: absolute;
-  top: 47%;
+  top: 48%;
   left: 20.5%;
   z-index: 99;
 }
@@ -453,6 +453,11 @@ li{
   #buytokenimg{width: 100%; height: 40vh;}
   .gradient-btn1{padding: 5px 0px; margin-bottom: 4%;}
   .containerInfo p{font-size: 2.2vw;}
+
+  .containercoins img{display: none;}
+  .containercoins1 img{display: none;}
+  .containercoins2 img{display: none;}
+  .containercoins3 img{display: none;}
 }
 
 /* SCREEN SM */
@@ -481,6 +486,10 @@ li{
 
   .containerInfo p{font-size: 1.8vw;}
   #buytokenimg{width: 100%;}
+  .containercoins2 img{display: none;}
+  .containercoins3 img{display: none;}
+  
+  
 }
 
 /* SCREEN MD */
