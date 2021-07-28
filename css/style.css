@@ -147,11 +147,12 @@ td{
 
 
 .gradient-btn1{
-  font-size: 1.1rem;
   font-family: 'Montserrat', serif;
   font-weight: 400;
+  color: white;
   background: linear-gradient(to right,rgb(103,188,155) , rgb(68, 125, 163));
-  border-radius: 1.4rem;
+  border-radius: 1.2rem;
+  padding: 5% 5%;
 }
 .col1-big{
   position: relative;
@@ -248,7 +249,6 @@ a{
  }
 
 .WWB{
- 
   width: 100%;
   height: 100%;
   background-color: rgb(24,19,45);
@@ -337,21 +337,17 @@ a{
   width: 70%;
   height: 70%;
 }
-.imgicons1{
-  margin-right:2%;
-  margin-bottom:2%;
+.containercoins img{
+  position: absolute;
+  bottom: 0;
+  left: 6%;
+}
+.wrap{
+  position: relative;
 }
 
-.containerCoins img{
-  position: absolute;
-}
 
-.infoCoins2 img{
-  position: absolute;
-}
-.infoCoins1 img{
-  position: absolute;
-}
+
 .butonmobile{
   border-radius: 1em; 
   width: 70%;
@@ -376,7 +372,7 @@ li{
  #wwb1{
   border-radius: 1.5em;
   list-style-type: none;
-  background-color: rgb(162, 161, 171);
+  background-color: white;
   padding:5% 5%;
   margin-left: 10%;
   margin-right: 10%;
@@ -387,7 +383,7 @@ li{
   width: 50%;
   margin-top: 5%;
 }
-#buytokenimg{width: 80%;}
+#buytokenimg{width: 75%;}
 /*SCREEN XS*/
 @media (max-width: 575.98px) {
   h1 {font-size: 4vw;}
@@ -425,9 +421,7 @@ li{
   #colInfo{margin-top: 7%;}
   #pequeno1{height: 11vh;}
 
-  .containerCoins img{top: 330%; left: 0%; width: 30%;}
-  .infoCoins1 img{display: none;}
-  .infoCoins2 img{display: none; }
+
 
   #info{margin-top: 0;}
   .main1 .row{margin: 0;}
@@ -439,6 +433,7 @@ li{
   
   #tokenGrafico{width: 100%; margin-bottom: 10%;}
   #buytokenimg{width: 100%; height: 40vh;}
+  .gradient-btn1{padding: 5px 0px; margin-bottom: 4%;}
 }
 
 /* SCREEN SM */
@@ -465,9 +460,7 @@ li{
   .navbar{padding: 0;}
   .nav-link{padding: 0;}
 
-  .containerCoins img{top: 305%; left: 0%; width: 20%;}
-  .infoCoins1 img{top: 389%; left: 10%; width: 18%;}
-  .infoCoins2 img{top: 426%; left: 10%; width: 22%;}
+
   #buytokenimg{width: 100%;}
 }
 
@@ -493,9 +486,7 @@ li{
   #special{font-size: 24px;}
   #secondrow{margin-top: 5%;}
 
-  .containerCoins img{top: 314%; left: 0%; width: 20%;}
-  .infoCoins1 img{top: 405%; left: 14%; width: 15%;}
-  .infoCoins2 img{top: 456%; left: 14%; width: 19%;}
+
 }
 /* SCREEN LG */
 @media (min-width: 992px) and (max-width: 1199.98px)  {
@@ -517,9 +508,7 @@ li{
   #special{font-size: 32px;}
   #secondrow{margin-top: 5%;}
 
-  .containerCoins img{top: 310%; left: 0%; width: 18%;}
-  .infoCoins1 img{top: 410%; left: 14%; width: 15%;}
-  .infoCoins2 img{top: 468%; left: 14%; width: 20%;}
+
 }
 /* SCREEN XL */
 @media (min-width: 1200px) {
@@ -546,9 +535,7 @@ li{
   .col1-small{width: 40%; float: right;}
   .col-xano{width: 45%; width: 45%; float: right;}
 
-  .containerCoins img{top: 347%; left: 6.5%;}
-  .infoCoins1 img{top: 460%; left: 15.5%; width: 14%;}
-  .infoCoins2 img{top: 525%; left: 14%; width: 18%;}
+
   #btnNav{width: 100%;}
 
 

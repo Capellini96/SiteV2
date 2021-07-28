@@ -44,8 +44,6 @@
           <a class="dropdown-item" onclick="openTab(this)"  name="Docs/Litepaper.pdf">Litepaper</a>
         </div>
       </li>
-        <!---<a class="nav-link"  onclick="openTab(this);return false;"  name="Docs/webetWhitepaper.pdf">WHITEPAPER</a>--->
-       
       <li class="nav-item">
         <a class="nav-link" href="#team">TEAM</a>
       </li> 
@@ -53,7 +51,7 @@
         <a class="nav-link" href="#contactus">CONTACT US</a>
       </li>    
       <li class="nav-item">
-        <a class="nav-link btn btn-xl m-3 text-light gradient-btn1"  id="btnNav" href="#buytoken" role="button" >BUY TOKEN</a>
+        <a class="nav-link btn gradient-btn1"  id="btnNav" href="#buytoken" role="button" >BUY TOKEN</a>
    </li> 
     </ul>
   </div> 
@@ -201,12 +199,12 @@ showNextSeccao();
   var x = document.getElementById("divButon1");
   var y = document.getElementById("botaoImg1");
   if (x.style.display === "none") {
-    x.style.display = "block";
+    x.style.display = "" ;
   } else {
     x.style.display = "none";
   }
   if (y.style.display === "none") {
-    y.style.display = "block";
+    y.style.display = "" ;
   } else {
     y.style.display = "none";
   }
@@ -227,12 +225,12 @@ showNextSeccao();
   }
    }
   </script> 
-                                                     <!----WWB-->
-<div class="WWB d-block d-sm-none" style="margin-top: 10%;" id="whywebetMobile">
+                                                     <!----WWB-mobile-->
+<div class="WWB d-block d-sm-none" style="padding-top: 20px;padding-bottom: 15px;" id="whywebetMobile">
   <input type="image" id="botaoImg1" src="imagens/wwbButon1.png" class="butonmobile"  value="Show Div" onclick="showDiv()" />>
   <div id="divButon1"  style="display:none;"  onclick="showDiv()">
-    <ul id="wwb1">
-      <li><img src="imagens/WWBimg.png" style="width: 70%;"></li>
+    <ul id="wwb1" style="margin-bottom: 50px;">
+      <li><img src="imagens/PNG/wwb_semfundo.png" style="width: 70%;"></li>
       <br>
       <li>NO FEES</li >
       <br>
@@ -252,7 +250,7 @@ showNextSeccao();
  
   <input type="image" id="botaoImg2" src="imagens/wwbButton2.png" class="butonmobile" style="margin-top:0 ;"value="Show Div" onclick="showDiv2()" />>
   <div id="divButon2"  style="display:none;" onclick="showDiv2()" >
-    <ul id="wwb1">
+    <ul id="wwb1" style="margin-bottom: 50px;">
     <li>COMPETITION</li>
     <br>
     <li>5-10%</li>
@@ -271,11 +269,14 @@ showNextSeccao();
   </ul>
   </div>
 
-</div>      
-<div class="containerCoins">
-          <img src="imagens/PNG/wwb coins.png">
-          </div>                                              
+</div>     
+                                                      <!----WWB----->
+        
+ <div class="wrap">                                                 
 <div class="WWB" style="margin-top: 10%;" id="whywebet">
+  <div class="containercoins">
+    <img src="imagens/PNG/coin1wwb.png" width="15%">
+            </div>  
       <div class="containertable">
       <table>    
         <tr>
@@ -313,6 +314,7 @@ showNextSeccao();
 </table>
 </div>
   </div>
+</div>    
  
   
                                                       <!---info-->
