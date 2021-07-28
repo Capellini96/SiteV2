@@ -77,7 +77,7 @@ td{
 }
 .containertable{
   padding: 4% 7%;
-  margin: 5% 5%;
+  margin: 1% 5%;
   border: 2.5px dashed rgb(103,188,155);
   border-radius: 1.2em;
 
@@ -339,8 +339,13 @@ a{
 }
 .containercoins img{
   position: absolute;
-  bottom: 0;
-  left: 6%;
+  bottom: 1%;
+  left: 8%;
+}
+.containercoins1 img{
+  position: absolute;
+  top: 0;
+  left: 8%;
 }
 .wrap{
   position: relative;
